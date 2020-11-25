@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/101.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Lato';
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.tickets-available-button {
+    background: pink;
+    color: white;
+    min-width: 260px;
+}
+
+.btn-pink {
+    background: pink;
+    color: white;
+}
+
+.tickets-available-button:hover,
+.tickets-available-button:active,
+.tickets-available-button:focus,
+.btn-pink:hover,
+.btn-pink:active,
+.btn-pink:focus {
+    background: rgb(250, 224, 238);
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* ------------------------------------------------------------ Media Queries */
+
+/* Slightly larger on container on x1 screen */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
