@@ -5,7 +5,6 @@
         "fields": {
             "name": "Early-Bird Ticket",
             "description": "Early bird gets the earl worm! Be the first to secure your ticket at a very affordable price!!!",
-            "numberOfTickets": 150,
             "price": 10
         }
     },
@@ -15,7 +14,6 @@
         "fields": {
             "name": "Standard Ticket",
             "description": "Don't miss out on this year's biggest event! Secure your tickets now and say goodbye to FOMO!!!",
-            "numberOfTickets": 5000,
             "price": 20
         }
     },
@@ -25,7 +23,6 @@
         "fields": {
             "name": "VIP Ticket",
             "description": "Say goodbye to entry queues. VIP ticket gives you and your friends access to jump the long and boring queues at the entrance. You will also to awarded access to speacial bar area where all your favourite drinks can be purchased on site!",
-            "numberOfTickets": 500,
             "price": 29.99
         }
     },
@@ -35,7 +32,6 @@
         "fields": {
             "name": "All Area Access Ticket",
             "description": "Get all the benfits of a VIP plus more! This give you access to back stage where you can meet and greet all the artist. Have your photo taken and sign autographs!!! ",
-            "numberOfTickets": 20,
             "price": 49.99
         }
     }
