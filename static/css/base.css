@@ -65,6 +65,10 @@ body {
     z-index: -1;
 }
 
+.wrap {
+    font-size: 3vw;
+}
+
 /* ------------------------------------------------------------ Media Queries */
 
 /* Slightly larger on container on x1 screen */
