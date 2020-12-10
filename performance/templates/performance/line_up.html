@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block page_header %}
+
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
@@ -10,7 +11,7 @@
 {% endblock %}
 
 {% block content %}
-    
+        
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
@@ -19,6 +20,51 @@
             <hr class="w-50 mb-1">
         </div>
     </div>
-
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/media/102.png" class="d-block w-100" alt="Ryan Head">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>DJ PC Head</h5>
+        <p>Headlining this year event! Welcome the highly rated DJ Head from Hertfordshire.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/media/103.png" class="d-block w-100" alt="Four Directions">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Four Directions</h5>
+        <p>Headlining Last year event! We could not afford to not have them back after such a successful event!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/media/104.png" class="d-block w-100" alt="Weekdays">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Weekdays</h5>
+        <p>Coming all the way from Ghana, Africa! We welcome Weekdays! One of the up and coming Afro-beatz artist. Do not leave your dancing shoes at home for this one!!!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/media/105.png" class="d-block w-100" alt="Cross Roads">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cross Roads</h5>
+        <p>Coming from the back of a really difficult year, Cross Roads are here to lift our sprints!</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
 </div>
+</div>
+
 {% endblock %}

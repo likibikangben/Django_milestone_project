@@ -10,13 +10,6 @@ body {
     font-family: 'Lato';
 }
 
-.line_up {
-    background: url('/media/106.JPG') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
-}
 
 .logo-font {
     text-transform: uppercase;
