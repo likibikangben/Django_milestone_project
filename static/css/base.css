@@ -92,6 +92,11 @@ body {
     overflow: auto;
 }
 
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 /* ------------------------------------------------------------ Media Queries */
 
 /* Slightly larger on container on x1 screen */
