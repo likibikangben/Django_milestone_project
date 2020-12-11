@@ -88,6 +88,10 @@ body {
     font-size: 3vw;
 }
 
+.text {
+    overflow: auto;
+}
+
 /* ------------------------------------------------------------ Media Queries */
 
 /* Slightly larger on container on x1 screen */
